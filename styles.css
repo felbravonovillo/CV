@@ -1,0 +1,103 @@
+
+.content {
+    width: 900px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    height: auto;
+}
+
+.columna-izquierda {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    float: left;
+    background-color:#1EE0BA;
+}
+
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    padding-top: 35px;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+.nav li {
+    padding: 5px 0;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav li a:hover {
+    background-color:black;
+    color: blanchedalmond;
+}
+
+.columna-derecha {
+    width: 70%;
+    float: right;
+    background-color:#1EE0BA;
+}
+
+.seccion {
+    margin: 10px;
+    padding: 5px;
+}
+
+.seccion1 {
+    background-color:white;
+    border-radius: 1%;
+    padding: 0px 8px 2px 8px;
+}
+
+.seccion2 {
+    background-color: white;
+    border-radius: 1%;
+    padding: 0px 8px 2px 8px;
+}
+
+.seccion3 {
+    background-color:white;
+    border-radius: 1%;
+    padding: 0px 8px 2px 8px;
+}
+
+.seccion4 {
+    background-color:white;
+    border-radius: 1%;
+    padding: 0px 8px 2px 8px;
+}
+
+.iconos{
+    justify-content: center;
+}
+
+h3 {
+    font-size: 20px;
+    color:black;
+    margin-left: 8px;  
+    margin-bottom: 3px;
+}
+
+hr {
+    border-color:#1EE0BA;
+}
